@@ -9,17 +9,27 @@
 }
 
 .all {
+    z-index: 2;
     position: relative;
-    z-index: 2; 
 }
   
+button {
+    border: 0;
+    outline: 0;
+}
+
+.navbar-toggler i {
+    color: white;
+}
 
 .nav-item a {
     color: #F6F1F1;
     font-weight: 700;
 }  
 
-
+.nav-item a:hover {
+    color: #AFD3E2;
+}
 
 .navbar-brand p {
     color: #F6F1F1;
@@ -85,7 +95,12 @@
     gap: 20px;
 }
 
-.card-title {
+.card-img-overlay h1 {
+    font-weight: 700;
+    color: #F6F1F1;
+}
+
+.card-title h1 {
     color: #F6F1F1;
     font-weight: 700;
 }
@@ -114,11 +129,52 @@
 
 .text-footer p {
     font-weight: 700;
+    font-size: 20px;
     color: #F6F1F1;
 }
 
-.text-menu a {
-    
+.text-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.text-menu p {
     font-weight: 700;
+    font-size: 20px;
     color: #F6F1F1;
+}
+
+.card {
+    border: 0;
+    outline: 0;
+}
+
+@media only screen and (max-width: 900px) {
+    .text-card {
+        padding-right: 50px;
+        color: #F6F1F1;
+        font-weight: 700;
+    }
+
+    #home {
+        margin-bottom: 150px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 100vh;
+    }
+    
+    #project {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 50px;
+    }
+
+    .about-text {
+        text-align: center;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 20px;
+    }
 }
