@@ -1,6 +1,7 @@
 body {
-    background-color: #000;
+    background-color: #146C94;
 }
+
 .backwrap {
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -9,7 +10,7 @@ body {
     position: fixed;
     left: 0;
     top: 0;
-    z-index: 1;
+    z-index: -2;
 }
 
 .back-shapes {

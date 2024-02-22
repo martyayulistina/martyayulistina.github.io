@@ -4,18 +4,16 @@
     box-sizing: border-box;
 }
 
-.all-container {
-    background-color: #146C94;
-}
-
-.all {
-    z-index: 2;
-    position: relative;
-}
-  
 button {
     border: 0;
     outline: 0;
+}
+
+.navbar {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.4px);
+    -webkit-backdrop-filter: blur(6.4px);
 }
 
 .navbar-toggler i {
@@ -43,6 +41,10 @@ button {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+}
+
+section {
+    padding-top: 70px; 
 }
 
 #home {
